@@ -1,0 +1,53 @@
+body {
+    text-align:center;
+    font-family: 'Indie Flower', cursive;
+}
+
+h1{
+font-size:45px;
+}
+
+.h1_text{
+    color:rgb(106, 38, 151);
+}
+
+img{
+    transition-duration: 3s;
+}
+ 
+ .text_keyframe{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:50%;
+    margin-top:5rem;
+
+ }
+.text_keyframe h3{
+   
+    margin:0;
+    font-size:30px;
+    background-image: linear-gradient(to left,#2ecc71, #3498db, #9b59b6, #f39c12);
+    background-clip: text;
+    animation: animate 5s linear infinite;
+    background-size: 500%;
+}
+@keyframes animate {
+    0% {background-position:0 100%;}
+    50% {background-position: 100% 0;}
+    100% {background-position: 0 100%;}
+}
+
+
+.fade-in_text{
+       animation: fadeIn 5s;
+       font-size:25px;
+       margin-top:5rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+        
