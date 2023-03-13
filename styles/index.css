@@ -39,11 +39,10 @@ img{
     100% {background-position: 0 100%;}
 }
 
-
 .fade-in_text{
        animation: fadeIn 5s;
        font-size:25px;
-       margin-top:5rem;
+       margin-top:8rem;
 }
 
 @keyframes fadeIn {
@@ -51,3 +50,8 @@ img{
     100% { opacity: 1; }
 }
         
+.svgs{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
