@@ -21,11 +21,9 @@ img{
     left:50%;
     transform: translate(-50%,-50%);
     width:50%;
-    margin-top:5rem;
+}
 
- }
 .text_keyframe h3{
-   
     margin:0;
     font-size:30px;
     background-image: linear-gradient(to left,#2ecc71, #3498db, #9b59b6, #f39c12);
@@ -54,4 +52,5 @@ img{
     display:flex;
     justify-content: center;
     align-items:center;
+    margin-left:5rem;
 }
